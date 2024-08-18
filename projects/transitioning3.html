@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100' rel='stylesheet'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/51ff8636fd.js" crossorigin="anonymous"></script>
+    
+    <title>Christof Schwarzenberger</title>
+  </head>
+
+  <body>
+   <!-- Header -->
+   <section id="header" style="background-color: #303030dd;">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="../index.html#hero">
+                    <h6>Christof Schwarzenberger</h6>
+                </a>
+            </div>
+            <div class="nav-list">
+                <a class="hamburger" onclick="showMenu()">
+                    <div class="bar">
+
+                    </div>
+                </a>
+                <ul>
+                    <li class="nav-1" ><a href="../index.html#hero" data-after="Home" onclick="showMenu()"><h6>Home</h6></a></li>
+                    <li class="nav-2-d"><a href="../index.html#time-beam" data-after="Timeline" onclick="showMenu()"><h6>Timeline</h6></a></li>
+                    <li class="nav-2-m"><a href="../index.html#mobile-time-beam" data-after="Timeline" onclick="showMenu()"><h6>Timeline</h6></a></li>
+                    <li class="nav-3"><a href="../about.html" data-after="About" onclick="showMenu()"><h6>About</h6></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Header -->
+
+    <!-- Project Section -->
+
+    <section id="project">
+      <div class="project container">
+        <div class="headline-container">
+          <h1 class="project-header">Transitioning - In Car VR</h1>
+          <h2 class="project-subheader">UX Design and VR Development</h2>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="../img/transitioning3-cover.png"  style="object-fit: contain;"/>
+          </div>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <br />
+        </div>
+        <div class="dot-container">
+          <span class="dot active" onclick="currentSlide(1)"></span>
+        </div>
+        
+        <div class="info-section">
+          <div class="row r1">
+            <div class="column c1">
+              <h3>Overview</h3>
+              <p id="description-text">
+                What is the Transitioning Project? 
+                <br><br>
+                The Transitioning project series investigates what <span>needs</span> arise in passengers and how a positive <span>user experience</span> can be achieved when <span>virtual reality experiences are integrated into vehicles</span>. Since passengers want to be aware of some stimuli or disruptions (e.g. phone call, emergency situation) in VR while traveling, the project explores which stimuli are relevant and how they can be integrated into virtuality without destroying the immersion. We distinguish between <span>explicit and implicit representations</span>. The explicit ones are implemented by pop-ups and are easy to understand, but overlay the VR world. The implicit ones are implemented by metaphorical objects and are less disturbing to the immersion, but are also more difficult to understand. The aim is to find out which type of representation is better suited for in car VR in which situation. If you want to know more about the project <a href="../projects/transitioning.html"><span>click here to visit the first iteration</span></a>.
+                <br><br>
+                What happend in this project iteration?
+                <br><br>
+                In the 3rd iteration, 25 people experienced two VR scenarios, the forest of calm and the Space Invaders game. The special aspect of this study was that the subjects were able to experience scenarios <span>inside a car with a head mounted display</span>. Movements in the virtual world were synchronized with the movements of the driving car.
+                <br /><br />
+                In the <span>user study</span>, new stimuli (e.g., car horn signal, WhatsApp message) were integrated into both scenarios. In line with the research question, subjects were asked to evaluate which influences are important in VR and whether they prefer an explicit or implicit representation.
+              </p>
+            </div>
+          </div>
+          <div class="row r2" id="details">
+            <div class="column c1">
+              <h3>My Role</h3>
+              <p>
+                In the project team, I was responsible for the <span>software development</span> of the VR scenarios in Unity and the management of the in-car integration. In addition, I developed an <span>UX concept</span> for the explicit and implicit representations.
+            </div>
+            <div class="column c2"></div>
+            <div class="column c3">
+              <div class="partrow pr1">
+                <h3>Highlights</h3>
+                <ul>
+                  <li><span>User study</span> with 25 subjects</li>
+                  <li>Functional Unity <span>prototype</span></li>
+                  <li><span>In-car VR</span> integration</li>
+                </ul>
+              </div>
+              <div class="partrow pr2">
+                <h3>Timeline</h3>
+                <p class="project-date">January 2022 - May 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="project-footer container">
+          <div class="footer-space">
+              <hr id="footer-line"></hr>
+          </div>
+          <div class="footer-icons">
+            <div class="control-box">
+              <div class="previous-button">
+                <div class="btn pre">
+                  <a href="../projects/escapers2.html" class="btn pre">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <p>Previous</p>
+                  </a>
+                </div>
+              </div>
+              <div class="next-button">
+                <a href="../projects/pitop.html" class="btn nxt">
+                  <p style="text-align: end;">Next</p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <!-- End Footer Section -->
+
+    <script src="../app.js"></script>
+    <script src="../countdown.js"></script>
+  </body>
+</html>
